@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.identificador{
+    background-color: #30343F;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+}
+
+.inicio, .teste1, .teste2{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    right: 25%;
+    top: 2%;
+    font-size: 30px;
+}
+
+.teste1{
+    right: 15%;
+}
+
+.teste2{
+    right: 5%;
+}
+
+.div1, .div2{
+    position: absolute;
+    text-decoration: none;
+    color: #89023E;
+    right: 22%;
+    top: 2%;
+    font-size: 35px;
+}
+
+.div2{
+    right: 12%;
+}
+
+.n22{
+    color: #89023E;
+}
+
+.imagecontrol{
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+    top: 400px;
+    right: 130px;
+}
+
+.explicacao{
+    color: white;
+    z-index: 3;
+    background-color: #30343F;
+    max-width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #89023E;
+    font-size: 15px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.title{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.games{
+    color: #70e000;
+    font-size: 25px;
+}
+
+.colorgreen{
+    color: #70e000;
+}
+
+.colorred{
+    color: #89023E;
+}
