@@ -5,6 +5,7 @@
 
 body{
     background-color: black;
+    z-index: 1;
 }
 
 .identificador{
@@ -50,27 +51,33 @@ h1{
     color: #89023E;
 }
 
-.imagecontrol{
+/* .imagecontrol{
     position: absolute;
     width: 300px;
     z-index: 2;
     top: 400px;
     right: 130px;
-}
+} */
 
-.explicacao{
+ .explicacao{
+    font-size: 19px;
+    position: absolute;
     color: white;
-    z-index: 3;
-    background-color: #30343F;
-    max-width: 40%;
-    text-align: center;
+    max-width: 35%;
+    left: 30%;
+    top: 30%;
+    z-index: 4;
+ }
+
+.computer{
+    position: absolute;
+    width: 850px;
+    display: block;
+    margin: 50%;
     margin: auto;
-    margin-top: 50px;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid #89023E;
-    font-size: 15px;
-    font-family: 'Rubik Mono One', sans-serif;
+    margin-top: -50px;
+    z-index: 2;
+    left: 25%;
 }
 
 .title{
@@ -80,10 +87,6 @@ h1{
     margin-top: 60px;
 }
 
-.games{
-    color: #70e000;
-    font-size: 25px;
-}
 
 .colorgreen{
     color: #70e000;
@@ -92,3 +95,65 @@ h1{
 .colorred{
     color: #89023E;
 }
+
+.seta{
+    position: absolute;
+    width: 130px;
+    z-index: 3;
+    left: 65%;
+    top: 66%;
+    transform: rotate(-15deg);
+}
+
+.text-mario{
+    position: absolute;
+    color: white;
+    background-color: #30343F;
+    max-width: 25%;
+    margin-top: 800px;
+    text-align: right;
+    left: 60%;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 21px;
+    border: #70e000 3px dashed;
+}
+
+
+ .canoverde{
+    position: absolute;
+    width: 170px;
+    margin-top: 1297px;
+    margin-left: 20%;
+    z-index: 4;
+} 
+.mario{
+    position: absolute;
+    margin-top: 1070px;
+    margin-left: 170px;
+    width: 150px;
+    transform: rotate(-12deg);
+    z-index: 5;
+}
+
+.banzai{
+    position: absolute;
+    z-index: 6;
+    margin-top: 850px;
+    margin-left: 40%;
+    width: 200px;
+}
+
+.mariobros{
+    font-family: chlorip;
+}
+
+.logomario{
+    position: absolute;
+    width: 550px;
+    margin-top: 750px;
+    margin-left: 110px;
+    transform: rotate(-10deg);
+}
+
+
