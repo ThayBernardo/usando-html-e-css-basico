@@ -1,1 +1,1 @@
-Primeiro projeto da Trybe, utilizando componentes HTML e CSS.
+Primeiro projeto pessoal, para treinar habilidades em CSS e HTML5
